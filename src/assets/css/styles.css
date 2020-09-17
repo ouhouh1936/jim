@@ -1,0 +1,53 @@
+.app {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+}
+.app .apple {
+  width: 5%;
+  height: 100%;
+  background-color: #07689f;
+}
+.app .samsung {
+  width: 95%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+.app .samsung .samsung__col1 {
+  width: 100%;
+  height: 50%;
+  background-color: #40a8c4;
+}
+.app .samsung .samsung__col2 {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: row;
+}
+.app .samsung .samsung__col2 .samsung__col2__col1 {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+.app .samsung .samsung__col2 .samsung__col2__col1 .samsung__col2__col1__col1 {
+  width: 100%;
+  height: 50%;
+  background-color: #a2d5f2;
+}
+.app .samsung .samsung__col2 .samsung__col2__col1 .samsung__col2__col1__col2 {
+  width: 100%;
+  height: 50%;
+  background-color: #4e89ae;
+}
+.app .samsung .samsung__col2 .samsung__col2__col2 {
+  width: 50%;
+  height: 100%;
+  background-color: #43658b;
+}
